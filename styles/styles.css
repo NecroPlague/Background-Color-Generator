@@ -1,0 +1,33 @@
+body    {
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#select-color   {
+    background-color: rgba(105, 105, 105, 0.8);
+    width: 400px;
+    margin: 200px auto 0px auto;
+    color: #fff;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+#select-color input[type='range']{
+    width: 100%;
+
+}
+
+.btn    {
+    text-align: center;
+}
+
+#random {
+    border: 0px;
+    padding: 8px 12px;
+    background-color: #dfdfdf;
+    border-radius: 5px ;
+}
+
+#random:hover   {
+    cursor: pointer;
+    background-color: #b1b1b1;
+}
